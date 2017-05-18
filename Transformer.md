@@ -256,7 +256,7 @@ For the `"unresolvedLinkAction"` parameter, the following actions are supported:
 
 **Examples**
 
-- Create an edge from the current vertex, with the class set to `Parent`, to all vertices returned by the lookup on the `D.inode` index with the value contained in the filed `inode_parent` of the input's vertex:
+- Create an edge from the current vertex, with the class set to `Parent`, to all vertices returned by the lookup on the `D.inode` index with the value contained in the field `inode_parent` of the input's vertex:
 
   ```json
   { "edge": 
